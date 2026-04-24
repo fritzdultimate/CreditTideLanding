@@ -206,11 +206,11 @@
 
     @include('layouts.landing.stock-tradingview')
 
-    @include('layouts.landing.testimonials')
+    @include('layouts.landing.testimonials', compact('testimonies'))
 
-    @include('layouts.landing.investors')
+    @include('layouts.landing.investors', compact('investors'))
 
-    @include('layouts.landing.companies')
+    @include('layouts.landing.companies', compact('companies'))
 
     @include('layouts.landing.how-it-started')
 

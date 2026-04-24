@@ -21,20 +21,20 @@
                 <li class="has-dropdown relative">
                 <span class="nav-link text-t2 text-sm px-3 py-2 rounded-lg cursor-pointer hover:text-t1 hover:bg-white/[0.07] flex items-center gap-1 transition-colors">About Us ▾</span>
                 <div class="dropdown absolute top-full left-0 -mt-px bg-bg2 border border-white/[0.08] rounded-xl p-2 pt-3 min-w-[200px] shadow-2xl z-50">
-                    <a href="company.html"        class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Our Company</a>
-                    <a href="leadership.html"     class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Our Leadership</a>
-                    <a href="diversity.html"      class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Diversity &amp; Inclusion</a>
-                    <a href="responsibility.html" class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Corporate Responsibility</a>
-                    <a href="capabilities.html"   class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Investment Capabilities</a>
-                    <a href="commitments.html"    class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Our Commitments</a>
+                    <a href="{{ route('about.our-company') }}"        class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Our Company</a>
+                    <a href="{{ route('about.our-leadership') }}"     class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Our Leadership</a>
+                    <a href="{{ route('about.diversity-inclusion') }}"      class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Diversity &amp; Inclusion</a>
+                    <a href="{{ route('about.responsibility') }}" class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Corporate Responsibility</a>
+                    <a href="{{ route('about.investment-capabilities') }}"   class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Investment Capabilities</a>
+                    <a href="{{ route('about.our-commitment') }}"    class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Our Commitments</a>
                 </div>
                 </li>
                 <li class="has-dropdown relative">
                 <span class="nav-link text-t2 text-sm px-3 py-2 rounded-lg cursor-pointer hover:text-t1 hover:bg-white/[0.07] flex items-center gap-1 transition-colors">Investment Plans ▾</span>
                 <div class="dropdown absolute top-full left-0 -mt-px bg-bg2 border border-white/[0.08] rounded-xl p-2 pt-3 min-w-[180px] shadow-2xl z-50">
-                    <a href="plans.html"      class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Various Plans</a>
-                    <a href="calculator.html" class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Profit Calculator</a>
-                    <a href="suggestion.html" class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Get Suggestion</a>
+                    <a href="{{ route('plans.list') }}"      class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Various Plans</a>
+                    <a href="{{ route('plans.calculator') }}" class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Profit Calculator</a>
+                    <a href="{{ route('plans.suggestion') }}" class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Get Suggestion</a>
                 </div>
                 </li>
                 <li class="has-dropdown relative">
