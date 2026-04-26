@@ -11,7 +11,7 @@
                 <strong class="text-t1">800 professionals across the UK, US, and India.</strong>
             </p>
             <a 
-                href="leadership.html"
+                href="{{ route('about.our-leadership') }}"
                 class="bg-accent text-white font-medium px-7 py-3 rounded-xl hover:bg-blue-500 transition-all hover:-translate-y-0.5 no-underline text-sm">
                 Learn more →
             </a>
@@ -31,8 +31,8 @@
                     </div>
                 </div>
             </div>
-            <a href="leadership.html"
-                class="flex items-center justify-center gap-2 w-full py-3.5 border border-white/[0.15] rounded-xl text-t1 text-sm hover:border-accent hover:text-accent2 transition-all no-underline">▶
+            <a href="{{ route('about.our-leadership') }}"
+                class="flexe hidden items-center justify-center gap-2 w-full py-3.5 border border-white/[0.15] rounded-xl text-t1 text-sm hover:border-accent hover:text-accent2 transition-all no-underline">▶
                 Watch Video</a>
         </div>
     </div>

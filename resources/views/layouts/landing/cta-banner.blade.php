@@ -9,14 +9,14 @@
             <span class="w-5 h-px bg-accent2"></span>Get started today
         </div>
         <h2 class="reveal font-display text-3xl lg:text-4xl font-bold tracking-[-1.5px] mb-4">Start Your Investment
-            Journey</h2>
+            Journey.</h2>
         <p class="text-t2 text-base leading-relaxed max-w-md mx-auto mb-8">Gain access to powerful tools,
             diversified portfolios, and AI-driven strategies.</p>
         <div class="flex flex-col sm:flex-row gap-3 justify-center">
-            <a href="plans.html"
+            <a href="{{ route('plans.list') }}"
                 class="bg-accent text-white font-medium px-8 py-3.5 rounded-xl hover:bg-blue-500 transition-all hover:-translate-y-0.5 no-underline">Join
                 Us Now</a>
-            <a href="company.html"
+            <a href="{{ route('about.our-company') }}"
                 class="text-t1 font-medium px-8 py-3.5 rounded-xl border border-white/[0.15] hover:border-accent hover:text-accent2 transition-all no-underline">Learn
                 More</a>
         </div>

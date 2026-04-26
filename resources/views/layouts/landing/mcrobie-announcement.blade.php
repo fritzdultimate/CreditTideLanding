@@ -12,7 +12,7 @@
             <p class="text-t2 text-sm leading-relaxed mb-8">With a strong background in administration and finance,
                 Mr. McRobie is eager to bring his expertise and dedication to the company, ensuring continuous
                 growth and success.</p>
-            <a href="leadership.html"
+            <a href="{{ route('about.our-leadership') }}"
                 class="bg-accent text-white font-medium px-7 py-3 rounded-xl hover:bg-blue-500 transition-all hover:-translate-y-0.5 no-underline text-sm">Learn
                 More →</a>
         </div>

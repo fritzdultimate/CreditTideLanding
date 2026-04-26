@@ -39,7 +39,7 @@
                             <div class="text-[11px] text-t3 mt-1">Plans Available</div>
                         </div>
                     </div>
-                    <a href="suggestion.html"
+                    <a href="{{ route('plans.suggestion') }}"
                         class="bg-accent text-white font-medium px-7 py-3 rounded-xl hover:bg-blue-500 transition-all hover:-translate-y-0.5 no-underline text-sm">Get
                         AI Plan Suggestion →</a>
                 </div>
@@ -64,7 +64,7 @@
                     <div class="text-sm font-semibold text-white mb-1">$1,000.00</div>
                     <div class="text-xs mb-1" style="color:rgba(255,255,255,0.7)">Maximum Amount</div>
                     <div class="text-sm font-semibold text-white mb-5">$10,000.00</div>
-                    <a href="suggestion.html"
+                    <a href="{{ route('plans.suggestion') }}"
                         class="block w-full text-center py-2.5 rounded-lg text-xs font-semibold transition-all no-underline hover:opacity-90"
                         style="background:rgba(255,255,255,0.2);color:#fff;border:1px solid rgba(255,255,255,0.4)">Get
                         Started</a>
@@ -82,7 +82,7 @@
                     <div class="text-sm font-semibold text-t1 mb-1">$10,000.00</div>
                     <div class="text-xs text-t3 mb-1">Maximum Amount</div>
                     <div class="text-sm font-semibold text-t1 mb-5">$50,000.00</div>
-                    <a href="suggestion.html"
+                    <a href="{{ route('plans.suggestion') }}"
                         class="block w-full text-center py-2.5 rounded-lg text-xs font-medium transition-all no-underline hover:opacity-80"
                         style="background:rgba(255,255,255,.07);color:#F0F4FF;border:1px solid rgba(255,255,255,.12)">Get
                         Started</a>
@@ -100,7 +100,7 @@
                     <div class="text-sm font-semibold text-t1 mb-1">$50,000.00</div>
                     <div class="text-xs text-t3 mb-1">Maximum Amount</div>
                     <div class="text-sm font-semibold text-t1 mb-5">$200,000.00</div>
-                    <a href="suggestion.html"
+                    <a href="{{ route('plans.suggestion') }}"
                         class="block w-full text-center py-2.5 rounded-lg text-xs font-medium transition-all no-underline hover:opacity-80"
                         style="background:rgba(255,255,255,.07);color:#F0F4FF;border:1px solid rgba(255,255,255,.12)">Get
                         Started</a>
@@ -118,7 +118,7 @@
                     <div class="text-sm font-semibold text-t1 mb-1">$200,000.00</div>
                     <div class="text-xs text-t3 mb-1">Maximum Amount</div>
                     <div class="text-sm font-semibold text-t1 mb-5">$500,000.00</div>
-                    <a href="suggestion.html"
+                    <a href="{{ route('plans.suggestion') }}"
                         class="block w-full text-center py-2.5 rounded-lg text-xs font-medium transition-all no-underline hover:opacity-80"
                         style="background:rgba(255,255,255,.07);color:#F0F4FF;border:1px solid rgba(255,255,255,.12)">Get
                         Started</a>
@@ -136,7 +136,7 @@
                     <div class="text-sm font-semibold text-t1 mb-1">$500,000.00</div>
                     <div class="text-xs text-t3 mb-1">Maximum Amount</div>
                     <div class="text-sm font-semibold text-t1 mb-5">$10,000,000.00</div>
-                    <a href="suggestion.html"
+                    <a href="{{ route('plans.suggestion') }}"
                         class="block w-full text-center py-2.5 rounded-lg text-xs font-medium transition-all no-underline hover:opacity-80"
                         style="background:rgba(255,255,255,.07);color:#F0F4FF;border:1px solid rgba(255,255,255,.12)">Get
                         Started</a>
@@ -144,7 +144,7 @@
             </div>
             <div class="text-center mt-10">
                 <p class="text-t2 text-sm mb-4">Not sure which plan is right for you?</p>
-                <a href="suggestion.html"
+                <a href="{{ route('plans.suggestion') }}"
                     class="bg-accent text-white font-medium px-7 py-3 rounded-xl hover:bg-blue-500 transition-all no-underline text-sm">Get
                     AI Suggestion →</a>
             </div>

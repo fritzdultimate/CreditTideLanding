@@ -58,7 +58,7 @@
             <div class="hidden lg:flex items-center gap-2">
                 <button class="text-t2 text-sm px-4 py-2 border border-white/[0.15] rounded-lg hover:border-accent hover:text-t1 transition-all">Login</button>
                 <button class="text-t2 text-sm px-4 py-2 border border-transparent rounded-lg hover:text-t1 transition-all">Talk to support</button>
-                <a href="plans.html" class="bg-accent text-white text-sm font-medium px-5 py-2 rounded-lg hover:bg-blue-500 transition-all hover:-translate-y-0.5 no-underline">Join Us Now</a>
+                <a href="{{ route('plans.list') }}" class="bg-accent text-white text-sm font-medium px-5 py-2 rounded-lg hover:bg-blue-500 transition-all hover:-translate-y-0.5 no-underline">Join Us Now</a>
             </div>
 
             <!-- Mobile hamburger -->

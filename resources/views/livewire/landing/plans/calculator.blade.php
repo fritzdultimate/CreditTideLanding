@@ -78,7 +78,7 @@
                             <div class="text-[11px] text-t3 mt-1">Automatic Payouts</div>
                         </div>
                     </div>
-                    <a href="plans.html"
+                    <a href="{{ route('plans.list') }}"
                         class="bg-accent text-white font-medium px-7 py-3 rounded-xl hover:bg-blue-500 transition-all no-underline text-sm">Start
                         Earning Today →</a>
                 </div>
@@ -89,92 +89,6 @@
             </div>
         </div>
     </section>
-    <!-- ══ FOOTER ══ -->
-    <footer class="bg-bg2 border-t border-white/[0.08] px-6 lg:px-12 pt-14 pb-8">
-        <div class="max-w-6xl mx-auto">
-            <div class="grid grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
-                <div class="col-span-2 lg:col-span-2">
-                    <a href="index.html"
-                        class="font-display font-extrabold text-lg flex items-center gap-2 text-t1 no-underline mb-4">
-                        <div
-                            class="w-8 h-8 rounded-lg bg-gradient-to-br from-accent to-accent2 flex items-center justify-center text-white text-sm font-black flex-shrink-0">
-                            CT</div>Credit Tide
-                    </a>
-                    <p class="text-xs text-t3 leading-relaxed max-w-[240px]">A forward-thinking investment platform
-                        dedicated to empowering investors with transparency, security, and AI-driven financial growth.
-                    </p>
-                </div>
-                <div>
-                    <h4 class="text-[11px] font-semibold tracking-widest uppercase text-t3 mb-4">About Us</h4>
-                    <ul class="space-y-2.5 list-none p-0">
-                        <li><a href="company.html"
-                                class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Company</a></li>
-                        <li><a href="leadership.html"
-                                class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Our Leadership</a>
-                        </li>
-                        <li><a href="diversity.html"
-                                class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Diversity &amp;
-                                Inclusion</a></li>
-                        <li><a href="responsibility.html"
-                                class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Responsibility</a>
-                        </li>
-                        <li><a href="commitments.html"
-                                class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Our Commitments</a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="text-[11px] font-semibold tracking-widest uppercase text-t3 mb-4">Investment</h4>
-                    <ul class="space-y-2.5 list-none p-0">
-                        <li><a href="plans.html"
-                                class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Various Plans</a>
-                        </li>
-                        <li><a href="calculator.html"
-                                class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Profit
-                                Calculator</a></li>
-                        <li><a href="suggestion.html"
-                                class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Get Suggestion</a>
-                        </li>
-                        <li><a href="blog.html"
-                                class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Blog &amp;
-                                Insights</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="text-[11px] font-semibold tracking-widest uppercase text-t3 mb-4">Policy</h4>
-                    <ul class="space-y-2.5 list-none p-0">
-                        <li><a href="payment.html"
-                                class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Payment Policy</a>
-                        </li>
-                        <li><a href="payment.html"
-                                class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Deposit Policy</a>
-                        </li>
-                        <li><a href="payment.html"
-                                class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Withdrawal
-                                Policy</a></li>
-                        <li><a href="payment.html"
-                                class="text-t2 text-sm hover:text-t1 transition-colors no-underline">General Policy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="flex flex-col sm:flex-row justify-between items-center gap-4 border-t border-white/[0.08] pt-6">
-                <span class="text-xs text-t3">© 2025 Credit Tide. All rights reserved. 4th Floor The Featherstone
-                    Building, 66 City Road.</span>
-                <div class="flex gap-2">
-                    <a href="#"
-                        class="w-9 h-9 rounded-lg bg-white/[0.04] border border-white/[0.08] flex items-center justify-center text-t2 text-sm hover:border-white/[0.15] hover:text-t1 transition-all no-underline">📱</a>
-                    <a href="#"
-                        class="w-9 h-9 rounded-lg bg-white/[0.04] border border-white/[0.08] flex items-center justify-center text-t2 text-sm hover:border-white/[0.15] hover:text-t1 transition-all no-underline">📸</a>
-                    <a href="#"
-                        class="w-9 h-9 rounded-lg bg-white/[0.04] border border-white/[0.08] flex items-center justify-center text-t2 text-sm hover:border-white/[0.15] hover:text-t1 transition-all no-underline">▶</a>
-                    <a href="#"
-                        class="w-9 h-9 rounded-lg bg-white/[0.04] border border-white/[0.08] flex items-center justify-center text-t2 text-sm hover:border-white/[0.15] hover:text-t1 transition-all no-underline">✈</a>
-                    <a href="#"
-                        class="w-9 h-9 rounded-lg bg-white/[0.04] border border-white/[0.08] flex items-center justify-center text-t2 text-sm hover:border-white/[0.15] hover:text-t1 transition-all no-underline">✉</a>
-                </div>
-            </div>
-        </div>
 </main>
 
 <script>

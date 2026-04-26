@@ -25,10 +25,10 @@
                 </div>
             </div>
             <div class="flex flex-wrap gap-3">
-                <a href="plans.html"
+                <a href="{{ route('plans.list') }}"
                     class="bg-accent text-white font-medium px-7 py-3 rounded-xl hover:bg-blue-500 transition-all hover:-translate-y-0.5 no-underline text-sm">Start
                     Investing</a>
-                <a href="company.html"
+                <a href="{{ route('about.our-company') }}"
                     class="text-t1 text-sm font-medium px-7 py-3 rounded-xl border border-white/[0.15] hover:border-accent hover:text-accent2 transition-all no-underline">Learn
                     More</a>
             </div>

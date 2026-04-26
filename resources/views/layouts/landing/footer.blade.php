@@ -3,7 +3,7 @@
     <div class="max-w-6xl mx-auto">
         <div class="grid grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
             <div class="col-span-2 lg:col-span-2">
-                <a href="index.html"
+                <a href="{{ route('home') }}"
                     class="font-display font-extrabold text-lg flex items-center gap-2 text-t1 no-underline mb-4">
                     <div
                         class="w-8 h-8 rounded-lg bg-gradient-to-br from-accent to-accent2 flex items-center justify-center text-white text-sm font-black flex-shrink-0">
@@ -15,16 +15,16 @@
             <div>
                 <h4 class="text-[11px] font-semibold tracking-widest uppercase text-t3 mb-4">About Us</h4>
                 <ul class="space-y-2.5 list-none p-0">
-                    <li><a href="company.html"
+                    <li><a href="{{ route('about.our-company') }}"
                             class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Company</a></li>
-                    <li><a href="leadership.html"
+                    <li><a href="{{ route('about.our-leadership') }}"
                             class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Our Leadership</a></li>
-                    <li><a href="diversity.html"
+                    <li><a href="{{ route('about.diversity-inclusion') }}"
                             class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Diversity &amp;
                             Inclusion</a></li>
-                    <li><a href="responsibility.html"
+                    <li><a href="{{ route('about.responsibility') }}"
                             class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Responsibility</a></li>
-                    <li><a href="commitments.html"
+                    <li><a href="{{ route('about.our-commitment') }}"
                             class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Our Commitments</a>
                     </li>
                 </ul>
@@ -32,28 +32,28 @@
             <div>
                 <h4 class="text-[11px] font-semibold tracking-widest uppercase text-t3 mb-4">Investment</h4>
                 <ul class="space-y-2.5 list-none p-0">
-                    <li><a href="plans.html"
+                    <li><a href="{{ route('plans.list') }}"
                             class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Various Plans</a></li>
-                    <li><a href="calculator.html"
+                    <li><a href="{{ route('plans.calculator') }}"
                             class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Profit Calculator</a>
                     </li>
-                    <li><a href="suggestion.html"
+                    <li><a href="{{ route('plans.suggestion') }}"
                             class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Get Suggestion</a></li>
-                    <li><a href="blog.html" class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Blog
+                    <li><a href="{{ route('blog.investment-article') }}" class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Blog
                             &amp; Insights</a></li>
                 </ul>
             </div>
             <div>
                 <h4 class="text-[11px] font-semibold tracking-widest uppercase text-t3 mb-4">Policy</h4>
                 <ul class="space-y-2.5 list-none p-0">
-                    <li><a href="payment.html"
+                    <li><a href="{{ route('legal.payment-policy') }}"
                             class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Payment Policy</a></li>
-                    <li><a href="payment.html"
+                    <li><a href="{{ route('legal.payment-policy') }}"
                             class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Deposit Policy</a></li>
-                    <li><a href="payment.html"
+                    <li><a href="{{ route('legal.payment-policy') }}"
                             class="text-t2 text-sm hover:text-t1 transition-colors no-underline">Withdrawal Policy</a>
                     </li>
-                    <li><a href="payment.html"
+                    <li><a href="{{ route('legal.payment-policy') }}"
                             class="text-t2 text-sm hover:text-t1 transition-colors no-underline">General Policy</a></li>
                 </ul>
             </div>

@@ -92,7 +92,7 @@
             <h2 class="reveal font-display text-2xl lg:text-3xl font-bold tracking-[-1.5px] mb-3">Start Investing</h2>
             <p class="text-t2 text-sm leading-relaxed max-w-sm mx-auto mb-6">Start your investment journey today and
                 experience the Credit Tide difference.</p>
-            <a href="plans.html"
+            <a href="{{ route('plans.list') }}"
                 class="bg-accent text-white font-medium px-8 py-3 rounded-xl hover:bg-blue-500 transition-all hover:-translate-y-0.5 no-underline text-sm">Get
                 Started</a>
         </div>
