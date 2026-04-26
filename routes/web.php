@@ -18,6 +18,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::view('dashboard', 'dashboard')->name('dashboard');
 });
 
+// comment
+
 Route::get('/', Index::class)->name('home');
 
 Route::prefix('about')->group(function () {
