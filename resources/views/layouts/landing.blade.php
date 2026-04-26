@@ -49,8 +49,8 @@
                 <span class="nav-link text-t2 text-sm px-3 py-2 rounded-lg cursor-pointer hover:text-t1 hover:bg-white/[0.07] flex items-center gap-1 transition-colors">Privacy Policy ▾</span>
                 <div class="dropdown absolute top-full left-0 -mt-px bg-bg2 border border-white/[0.08] rounded-xl p-2 pt-3 min-w-[180px] shadow-2xl z-50">
                     <a href="{{ route('legal.payment-policy') }}" class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Payment Policy</a>
-                    <a href="payment.html" class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Deposit Policy</a>
-                    <a href="payment.html" class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Withdrawal Policy</a>
+                    <a href="{{ route('legal.payment-policy') }}" class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Deposit Policy</a>
+                    <a href="{{ route('legal.payment-policy') }}" class="block px-4 py-2 text-t2 text-sm rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Withdrawal Policy</a>
                 </div>
                 </li>
             </ul>

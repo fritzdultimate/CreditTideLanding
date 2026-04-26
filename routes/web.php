@@ -10,7 +10,7 @@ use App\Livewire\Landing\Blog\Article;
 use App\Livewire\Landing\Index;
 use App\Livewire\Landing\Plans\Calculator;
 use App\Livewire\Landing\Plans\InvestmentPlans;
-use App\Livewire\Landing\Plans\PaymentPolicy;
+use App\Livewire\Landing\Legal\PaymentPolicy;
 use App\Livewire\Landing\Plans\Suggestion;
 use Illuminate\Support\Facades\Route;
 

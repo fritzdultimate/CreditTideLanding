@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Livewire\Landing\Plans;
+namespace App\Livewire\Landing\Legal;
 
 use Livewire\Attributes\Layout;
 use Livewire\Component;
