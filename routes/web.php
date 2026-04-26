@@ -6,9 +6,11 @@ use App\Livewire\Landing\About\InvestmentCapabilities;
 use App\Livewire\Landing\About\OurCommitment;
 use App\Livewire\Landing\About\OurCompany;
 use App\Livewire\Landing\About\OurLeadership;
+use App\Livewire\Landing\Blog\Article;
 use App\Livewire\Landing\Index;
 use App\Livewire\Landing\Plans\Calculator;
 use App\Livewire\Landing\Plans\InvestmentPlans;
+use App\Livewire\Landing\Plans\PaymentPolicy;
 use App\Livewire\Landing\Plans\Suggestion;
 use Illuminate\Support\Facades\Route;
 
@@ -31,5 +33,13 @@ Route::prefix('plans')->group(function () {
     Route::get('/investment-plans', InvestmentPlans::class)->name('plans.list');
     Route::get('/plan-suggestion', Suggestion::class)->name('plans.suggestion');
     Route::get('/plan-calculator', Calculator::class)->name('plans.calculator');
+});
+
+Route::prefix('blog')->group(function () {
+    Route::get('/investment-article', Article::class)->name('blog.investment-article');
+});
+
+Route::prefix('legal')->group(function () {
+    Route::get('/payment-policy', PaymentPolicy::class)->name('legal.payment-policy');
 });
 require __DIR__.'/settings.php';
