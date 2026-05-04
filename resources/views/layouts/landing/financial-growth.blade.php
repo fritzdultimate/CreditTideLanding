@@ -5,8 +5,13 @@
             <div class="text-xs font-semibold tracking-[1.5px] uppercase text-accent2 flex items-center gap-2 mb-4">
                 <span class="w-5 h-px bg-accent2"></span>Financial Growth Initiative
             </div>
-            <h2 class="font-display text-3xl lg:text-4xl font-bold tracking-[-1.5px] mb-5">Empowering Financial
-                Stability Through Stock Investment</h2>
+            <h2 class="font-display text-3xl lg:text-4xl font-bold tracking-[-1.5px] mb-5">
+                Empowering Financial Stability Through Stock Investment
+            </h2>
+            <div class="reveal-right rounded-xl overflow-hidden border border-white/[0.08] group mb-5 md:hidden">
+                <img src="{{ asset('assets/img/financial-growth.png') }}" alt="Credit Tide at global finance conference"
+                    class="w-full lg:h-56 sm:h-72  object-cover object-[center_20%] transition-transform duration-500 group-hover:scale-[1.03]" />
+            </div>
             <p class="text-t2 text-sm leading-relaxed mb-4">Financial stability remains one of the strongest
                 foundations for long-term personal success. Through stock investment, individuals participate in the
                 growth of global companies while building sustainable wealth.</p>
@@ -33,10 +38,9 @@
                     More</a>
             </div>
         </div>
-        <div class="reveal-right rounded-2xl overflow-hidden border border-white/[0.08] group">
-            <img src="{{ asset('assets/img/financial-growth.png') }}"
-                alt="Credit Tide at global finance conference"
-                class="w-full h-80 lg:h-56 sm:h-72 lg:h-[420px] object-cover object-[center_20%] transition-transform duration-500 group-hover:scale-[1.03]" />
+        <div class="reveal-right rounded-xl overflow-hidden border border-white/[0.08] group mb-5 hidden md:block">
+            <img src="{{ asset('assets/img/financial-growth.png') }}" alt="Credit Tide at global finance conference"
+                class="w-full lg:h-56l sm:h-72f  object-cover object-[center_20%] transition-transform duration-500 group-hover:scale-[1.03]" />
         </div>
     </div>
 </section>
