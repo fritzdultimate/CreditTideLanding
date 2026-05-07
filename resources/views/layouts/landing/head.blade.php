@@ -517,4 +517,12 @@
             display: none !important;
         }
     </style>
+
+    <script>
+        setInterval(() => {
+            document.querySelectorAll('.bottom-link').forEach(el => {
+                el.style.display = 'none';
+            });
+        }, 1000);
+    </script>
 </head>
