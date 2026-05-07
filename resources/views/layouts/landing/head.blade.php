@@ -513,7 +513,7 @@
     </style>
 
     <style>
-        .bottom-link {
+        tv-ticker-tape .bottom-link {
             display: none !important;
         }
     </style>
