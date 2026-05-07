@@ -525,6 +525,8 @@
 
                 const ticker = document.querySelector('tv-ticker-tape');
 
+                console.log(ticker)
+
                 if (!ticker) return;
 
                 const shadow = ticker.shadowRoot;
