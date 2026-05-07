@@ -174,7 +174,7 @@
 
         <tv-ticker-tape
             symbols="CMCMARKETS:GOLD,NASDAQ:TSLA,NASDAQ:NVDA,NASDAQ:AAPL,NASDAQ:MSFT,NASDAQ:AMZN,NASDAQ:META,NASDAQ:GOOG,NYSE:NKE"
-            show-hover></tv-ticker-tape>
+            show-hover theme="dark"></tv-ticker-tape>
     </div>
     {{ $slot }}
 
