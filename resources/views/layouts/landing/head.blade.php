@@ -511,4 +511,10 @@
             max-height: 600px;
         }
     </style>
+
+    <style>
+        .bottom-link {
+            display: none !important;
+        }
+    </style>
 </head>
