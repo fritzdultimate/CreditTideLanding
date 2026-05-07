@@ -525,7 +525,7 @@
 
                 const ticker = document.querySelector('tv-ticker-tape');
 
-                console.log(ticker)
+                console.dir(ticker)
 
                 if (!ticker) return;
 
