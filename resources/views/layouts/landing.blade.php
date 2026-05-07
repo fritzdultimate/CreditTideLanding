@@ -169,7 +169,7 @@
     </div>
 
     <!-- ══ TICKER ══ -->
-    <div class="mt-16 bg-bg2 border-b border-white/[0.08] py-2.5 overflow-hidden ticker-wrap w-full">
+    <div class="mt-16 bg-bg2 border-b border-white/[0.08] py-2.5l overflow-hidden ticker-wrap w-full">
         <script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js"></script>
 
         <tv-ticker-tape
