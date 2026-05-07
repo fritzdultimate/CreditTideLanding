@@ -519,10 +519,27 @@
     </style>
 
     <script>
-        setInterval(() => {
-            document.querySelectorAll('.bottom-link').forEach(el => {
-                el.style.display = 'none';
-            });
-        }, 1000);
+        window.addEventListener('load', () => {
+
+            const interval = setInterval(() => {
+
+                const ticker = document.querySelector('tv-ticker-tape');
+
+                if (!ticker) return;
+
+                const shadow = ticker.shadowRoot;
+
+                if (!shadow) return;
+
+                const bottomLink = shadow.querySelector('.bottom-link');
+
+                if (bottomLink) {
+                    bottomLink.style.display = 'none';
+                    clearInterval(interval);
+                }
+
+            }, 500);
+
+        });
     </script>
 </head>
