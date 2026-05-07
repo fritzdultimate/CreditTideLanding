@@ -520,7 +520,7 @@
 
     <script>
         window.addEventListener('load', () => {
-
+            console.log('LOADED');
             const interval = setInterval(() => {
 
                 const ticker = document.querySelector('tv-ticker-tape');
