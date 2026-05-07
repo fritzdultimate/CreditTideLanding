@@ -531,6 +531,8 @@
 
                 if (!shadow) return;
 
+                console.log(shadow)
+
                 const bottomLink = shadow.querySelector('.bottom-link');
 
                 if (bottomLink) {
