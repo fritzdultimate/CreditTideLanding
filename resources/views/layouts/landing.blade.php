@@ -105,14 +105,19 @@
         </ul>
 
         <div class="hidden lg:flex items-center gap-2">
-            <button
-                class="text-t2 text-sm px-4 py-2 border border-white/[0.15] rounded-lg hover:border-accent hover:text-t1 transition-all">Login</button>
+            <a
+                href="https://app.credittidestockcompany.com/auth/sign/in"
+                target="_blank""
+                class="text-t2 text-sm px-4 py-2 border border-white/[0.15] rounded-lg hover:border-accent hover:text-t1 transition-all">Login</a>
             <button
                 class="text-t2 text-sm px-4 py-2 border border-transparent rounded-lg hover:text-t1 transition-all">Talk
                 to support</button>
-            <a href="{{ route('plans.list') }}"
-                class="bg-accent text-white text-sm font-medium px-5 py-2 rounded-lg hover:bg-blue-500 transition-all hover:-translate-y-0.5 no-underline">Join
-                Us Now</a>
+            <a 
+                href="https://app.credittidestockcompany.com/auth/sign/up"
+                target="_blank"
+                class="bg-accent text-white text-sm font-medium px-5 py-2 rounded-lg hover:bg-blue-500 transition-all hover:-translate-y-0.5 no-underline">
+                Join Us Now
+            </a>
         </div>
 
         <!-- Mobile hamburger -->
@@ -159,9 +164,13 @@
                 class="block py-3 px-4 text-t2 rounded-lg hover:bg-white/[0.07] hover:text-t1 transition-colors no-underline">Payment
                 Policy</a>
             <div class="flex gap-2 mt-3 pt-3 border-t border-white/[0.08]">
-                <button
-                    class="flex-1 py-2.5 border border-white/[0.15] rounded-lg text-t2 text-sm hover:border-accent transition-all">Login</button>
-                <a href="{{ route('plans.list') }}"
+                <a
+                    href="https://app.credittidestockcompany.com/auth/sign/in"
+                    target="_blank""
+                    class="flex-1 py-2.5 border border-white/[0.15] rounded-lg text-t2 text-sm hover:border-accent transition-all">Login</a>
+                <a
+                    href="https://app.credittidestockcompany.com/auth/sign/up"
+                    target="_blank""
                     class="flex-1 py-2.5 bg-accent rounded-lg text-white text-sm font-medium text-center no-underline hover:bg-blue-500 transition-all">Join
                     Us Now</a>
             </div>
