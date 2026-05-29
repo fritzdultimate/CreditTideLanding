@@ -166,13 +166,16 @@
             <div class="flex gap-2 mt-3 pt-3 border-t border-white/[0.08]">
                 <a
                     href="https://app.credittidestockcompany.com/auth/sign/in"
-                    target="_blank""
-                    class="flex-1 py-2.5 border border-white/[0.15] rounded-lg text-t2 text-sm hover:border-accent transition-all">Login</a>
+                    target="_blank"
+                    class="flex-1 py-2.5 border border-white/[0.15] rounded-lg text-t2 text-sm hover:border-accent transition-all">
+                    Login
+                </a>
                 <a
                     href="https://app.credittidestockcompany.com/auth/sign/up"
-                    target="_blank""
-                    class="flex-1 py-2.5 bg-accent rounded-lg text-white text-sm font-medium text-center no-underline hover:bg-blue-500 transition-all">Join
-                    Us Now</a>
+                    target="_blank"
+                    class="flex-1 py-2.5 bg-accent rounded-lg text-white text-sm font-medium text-center no-underline hover:bg-blue-500 transition-all">
+                    Join Us Now
+                </a>
             </div>
         </div>
     </div>

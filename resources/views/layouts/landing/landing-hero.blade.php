@@ -43,9 +43,8 @@
                 <a href="{{ route('plans.list') }}"
                     class="bg-accent text-white font-medium px-8 py-3.5 rounded-xl hover:bg-blue-500 transition-all hover:-translate-y-0.5 hover:shadow-[0_12px_40px_rgba(43,110,255,0.35)] no-underline">Start
                     Investing</a>
-                <a href="{{ route('plans.list') }}" class="font-medium px-8 py-3.5 rounded-xl transition-all no-underline"
-                    style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.35);color:#fff;backdrop-filter:blur(6px)">View
-                    Plans</a>
+                <a href="https://app.credittidestockcompany.com/auth/sign/in" target="_blank" class="font-medium px-8 py-3.5 rounded-xl transition-all no-underline"
+                    style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.35);color:#fff;backdrop-filter:blur(6px)">Login</a>
             </div>
             <div class="hero-stats-el flex flex-wrap gap-8 sm:gap-10">
                 <div>
