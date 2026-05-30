@@ -17,11 +17,12 @@
                         {{ $investor->initials }}
                     </div>
                     <img
-                        src="{{ $user->image }}"
-                        alt="{{ $user->name }}"
+                        src="{{ $investor->image }}"
+                        alt="{{ $investor->name }}"
                         class="rounded-full"
                         width="40"
-                        height="40">
+                        height="40"
+                    >
                     <div class="flex-1 min-w-0">
                         <div class="text-sm font-semibold text-t1 flex items-center gap-2">{{ $investor->name }}
                             <span class="bg-accent text-white text-[9px] px-2 py-0.5 rounded-full font-normal">
