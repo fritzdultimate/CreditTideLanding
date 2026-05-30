@@ -5,7 +5,7 @@
 <body class="font-body bg-bg text-t1">
     <!-- ══ FLOATING CONTACT BUTTONS ══ -->
     <div class="fixed bottom-7 left-5 z-50 flex flex-col gap-3">
-        <a href="https://wa.me/1234567890"
+        <a href="https://wa.me/+18503308852"
             class="float-btn w-12 h-12 rounded-full bg-[#25D366] flex items-center justify-center text-xl shadow-lg hover:scale-110 transition-transform no-underline">💬</a>
         <a href="mailto:support@credittidestockcompany.com"
             class="float-btn w-12 h-12 rounded-full bg-accent flex items-center justify-center text-xl shadow-lg hover:scale-110 transition-transform no-underline">✉️</a>
