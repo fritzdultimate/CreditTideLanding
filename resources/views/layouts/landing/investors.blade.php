@@ -19,7 +19,7 @@
                     <img
                         src="{{ $investor->image }}"
                         alt="{{ $investor->name }}"
-                        class="rounded-full w-8 h-8"
+                        class="rounded-full w-10 h-10"
                     >
                     <div class="flex-1 min-w-0">
                         <div class="text-sm font-semibold text-t1 flex items-center gap-2">{{ $investor->name }}
