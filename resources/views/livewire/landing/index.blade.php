@@ -118,7 +118,7 @@
 
     @include('layouts.landing.stock-tradingview')
 
-    @include('layouts.landing.testimonials', ['testimonies' => $testi ])
+    @include('layouts.landing.testimonials', ['testimonies' => $testimonies ])
 
     @include('layouts.landing.investors', compact('investors'))
 
