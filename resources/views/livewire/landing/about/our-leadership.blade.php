@@ -109,9 +109,12 @@
                 </div>
                 <div
                     class="reveal delay-3 bg-bg2 border border-white/[0.08] rounded-2xl p-6 text-center hover:border-white/[0.2] hover:-translate-y-1.5 transition-all">
-                    <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 font-display text-xl font-bold"
-                        style="background:rgba(255,181,71,.12);border:2px solid rgba(255,181,71,.3);color:#FFB547">DK
-                    </div>
+                    <img
+                        src="{{ asset('assets/img/p1.jpeg') }}"
+                        alt="Oliver Prill, CEO"
+                        class="w-20 h-20 rounded-full object-cover border-2 mx-auto mb-5"
+                        style="border-color:rgba(255,255,255,.15)"
+                    />
                     <div class="font-display font-semibold text-sm text-t1 mb-1">Darlington King</div>
                     <div class="text-xs text-t2 mb-3">Chief Investment Officer</div>
                     <div class="flex justify-center flex-wrap gap-1.5"><span
@@ -121,9 +124,12 @@
                 </div>
                 <div
                     class="reveal delay-4 bg-bg2 border border-white/[0.08] rounded-2xl p-6 text-center hover:border-white/[0.2] hover:-translate-y-1.5 transition-all">
-                    <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 font-display text-xl font-bold"
-                        style="background:rgba(0,229,160,.12);border:2px solid rgba(0,229,160,.3);color:#00E5A0">CK
-                    </div>
+                    <img
+                        src="{{ asset('assets/img/p2.jpeg') }}"
+                        alt="Oliver Prill, CEO"
+                        class="w-20 h-20 rounded-full object-cover border-2 mx-auto mb-5"
+                        style="border-color:rgba(255,255,255,.15)"
+                    />
                     <div class="font-display font-semibold text-sm text-t1 mb-1">Chukwuemeka</div>
                     <div class="text-xs text-t2 mb-3">Senior Market Analyst</div>
                     <div class="flex justify-center flex-wrap gap-1.5"><span
