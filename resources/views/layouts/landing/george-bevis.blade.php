@@ -25,7 +25,7 @@
                     <img
                         src="{{ asset('assets/img/founder.jpeg') }}"
                         alt="Oliver Prill, CEO"
-                        class="w-9 h-9 rounded-full object-cover border-2 mb-5"
+                        class="w-9 h-9 rounded-full object-cover border-2"
                         style="border-color:rgba(255,255,255,.15)"
                     />
                     <div>
