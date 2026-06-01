@@ -22,9 +22,12 @@
                 <p class="font-display font-semibold text-lg text-t1 leading-snug tracking-[-0.3px] mb-4">It takes
                     an entrepreneur to help entrepreneurs</p>
                 <div class="flex items-center gap-3">
-                    <div
-                        class="w-9 h-9 rounded-full bg-cgreen/15 border border-cgreen/30 flex items-center justify-center text-xs font-bold text-cgreen">
-                        GB</div>
+                    <img
+                        src="{{ asset('assets/img/founder.jpeg') }}"
+                        alt="Oliver Prill, CEO"
+                        class="w-16 h-16 rounded-full object-cover border-2 mx-auto mb-5"
+                        style="border-color:rgba(255,255,255,.15)"
+                    />
                     <div>
                         <div class="text-sm font-medium text-t1">George Bevis</div>
                         <div class="text-xs text-t3">Founder, Tide</div>
