@@ -79,9 +79,12 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
                 <div
                     class="reveal delay-1 bg-bg2 border border-white/[0.08] rounded-2xl p-6 text-center hover:border-white/[0.2] hover:-translate-y-1.5 transition-all">
-                    <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 font-display text-xl font-bold"
-                        style="background:rgba(43,110,255,.12);border:2px solid rgba(43,110,255,.3);color:#00C8FF">GM
-                    </div>
+                    <img
+                        src="{{ asset('assets/img/hod.jpeg') }}"
+                        alt="Oliver Prill, CEO"
+                        class="w-20 h-20 rounded-full object-cover border-2 mx-auto mb-5"
+                        style="border-color:rgba(255,255,255,.15)"
+                    />
                     <div class="font-display font-semibold text-sm text-t1 mb-1">Gary Allen McRobie</div>
                     <div class="text-xs text-t2 mb-3">Head Administrator</div>
                     <div class="flex justify-center flex-wrap gap-1.5"><span
