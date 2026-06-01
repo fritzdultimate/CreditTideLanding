@@ -115,7 +115,7 @@
                         class="w-20 h-20 rounded-full object-cover border-2 mx-auto mb-5"
                         style="border-color:rgba(255,255,255,.15)"
                     />
-                    <div class="font-display font-semibold text-sm text-t1 mb-1">Darlington King</div>
+                    <div class="font-display font-semibold text-sm text-t1 mb-1">Kelvin Brian</div>
                     <div class="text-xs text-t2 mb-3">Chief Investment Officer</div>
                     <div class="flex justify-center flex-wrap gap-1.5"><span
                             class='text-[10px] px-2.5 py-1 rounded-full bg-accent/10 text-accent2 border border-accent/20'>Markets</span><span
