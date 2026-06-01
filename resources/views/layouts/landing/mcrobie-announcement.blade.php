@@ -24,9 +24,12 @@
                 <span class="text-xs text-t3 ml-2">Gary McRobie — Introduction</span>
             </div>
             <div class="p-8 text-center">
-                <div
-                    class="w-20 h-20 rounded-full bg-gradient-to-br from-accent to-accent2 flex items-center justify-center mx-auto mb-4 font-display text-2xl font-bold text-white">
-                    GM</div>
+                <img
+                    src="{{ asset('assets/img/founder.jpeg') }}"
+                    alt="Oliver Prill, CEO"
+                    class="w-20 h-20 rounded-full object-cover border-2 mx-auto mb-5"
+                    style="border-color:rgba(255,255,255,.15)"
+                />
                 <div class="font-display font-bold text-lg text-t1 mb-1">Gary Allen McRobie</div>
                 <div class="text-xs text-accent2 mb-5">Head Administrator · Credit Tide</div>
                 <div class="bg-bg2 border border-white/[0.08] rounded-xl p-4 text-sm text-t2 leading-relaxed italic">
