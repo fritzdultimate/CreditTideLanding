@@ -130,7 +130,7 @@
                         class="w-20 h-20 rounded-full object-cover border-2 mx-auto mb-5"
                         style="border-color:rgba(255,255,255,.15)"
                     />
-                    <div class="font-display font-semibold text-sm text-t1 mb-1">Chukwuemeka</div>
+                    <div class="font-display font-semibold text-sm text-t1 mb-1">Steve</div>
                     <div class="text-xs text-t2 mb-3">Senior Market Analyst</div>
                     <div class="flex justify-center flex-wrap gap-1.5"><span
                             class='text-[10px] px-2.5 py-1 rounded-full bg-accent/10 text-accent2 border border-accent/20'>Research</span><span
