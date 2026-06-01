@@ -94,9 +94,12 @@
                 </div>
                 <div
                     class="reveal delay-2 bg-bg2 border border-white/[0.08] rounded-2xl p-6 text-center hover:border-white/[0.2] hover:-translate-y-1.5 transition-all">
-                    <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 font-display text-xl font-bold"
-                        style="background:rgba(123,94,255,.12);border:2px solid rgba(123,94,255,.3);color:#7B5EFF">RS
-                    </div>
+                    <img
+                        src="{{ asset('assets/img/reese.jpeg') }}"
+                        alt="Oliver Prill, CEO"
+                        class="w-20 h-20 rounded-full object-cover border-2 mx-auto mb-5"
+                        style="border-color:rgba(255,255,255,.15)"
+                    />
                     <div class="font-display font-semibold text-sm text-t1 mb-1">Reese Witherspoon</div>
                     <div class="text-xs text-t2 mb-3">Chief Partnerships Officer</div>
                     <div class="flex justify-center flex-wrap gap-1.5"><span
