@@ -23,7 +23,7 @@
                     an entrepreneur to help entrepreneurs</p>
                 <div class="flex items-center gap-3">
                     <img
-                        src="{{ asset('images/ceo.jpg') }}"
+                        src="{{ asset('assets/img/founder.jpeg') }}"
                         alt="Oliver Prill, CEO"
                         class="w-9 h-9 rounded-full object-cover border-2 mb-5"
                         style="border-color:rgba(255,255,255,.15)"
