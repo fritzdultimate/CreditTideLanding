@@ -42,8 +42,7 @@
                                 style="filter: invert(1);"
                             >
                        @else
-                        <i class="ti ti-coin text-xl opacity-50 group-hover:opacity-100 transition-opacity"
-                        style="color: {{ $investor->color }}"></i>
+                        ✦
                     @endif
                     </div>
                 </div>
