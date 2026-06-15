@@ -62,16 +62,26 @@
             <span class="text-xs text-t3">© 2025 Credit Tide. All rights reserved. 4th Floor The Featherstone Building,
                 66 City Road.</span>
             <div class="flex gap-2">
-                <a href="#"
-                    class="w-9 h-9 rounded-lg bg-white/[0.04] border border-white/[0.08] flex items-center justify-center text-t2 text-sm hover:border-white/[0.15] hover:text-t1 transition-all no-underline">📱</a>
-                <a href="#"
-                    class="w-9 h-9 rounded-lg bg-white/[0.04] border border-white/[0.08] flex items-center justify-center text-t2 text-sm hover:border-white/[0.15] hover:text-t1 transition-all no-underline">📸</a>
-                <a href="#"
-                    class="w-9 h-9 rounded-lg bg-white/[0.04] border border-white/[0.08] flex items-center justify-center text-t2 text-sm hover:border-white/[0.15] hover:text-t1 transition-all no-underline">▶</a>
-                <a href="#"
-                    class="w-9 h-9 rounded-lg bg-white/[0.04] border border-white/[0.08] flex items-center justify-center text-t2 text-sm hover:border-white/[0.15] hover:text-t1 transition-all no-underline">✈</a>
-                <a href="#"
-                    class="w-9 h-9 rounded-lg bg-white/[0.04] border border-white/[0.08] flex items-center justify-center text-t2 text-sm hover:border-white/[0.15] hover:text-t1 transition-all no-underline">✉</a>
+                {{-- Twitter/X --}}
+                <a href="#" class="w-9 h-9 rounded-lg bg-white/[0.04] border border-white/[0.08] flex items-center justify-center hover:border-white/[0.15] transition-all">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/x.svg" class="w-4 h-4" style="filter:invert(1);opacity:0.6;">
+                </a>
+                {{-- Instagram --}}
+                <a href="#" class="w-9 h-9 rounded-lg bg-white/[0.04] border border-white/[0.08] flex items-center justify-center hover:border-white/[0.15] transition-all">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg" class="w-4 h-4" style="filter:invert(1);opacity:0.6;">
+                </a>
+                {{-- YouTube --}}
+                <a href="#" class="w-9 h-9 rounded-lg bg-white/[0.04] border border-white/[0.08] flex items-center justify-center hover:border-white/[0.15] transition-all">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/youtube.svg" class="w-4 h-4" style="filter:invert(1);opacity:0.6;">
+                </a>
+                {{-- Telegram --}}
+                <a href="#" class="w-9 h-9 rounded-lg bg-white/[0.04] border border-white/[0.08] flex items-center justify-center hover:border-white/[0.15] transition-all">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/telegram.svg" class="w-4 h-4" style="filter:invert(1);opacity:0.6;">
+                </a>
+                {{-- LinkedIn --}}
+                <a href="#" class="w-9 h-9 rounded-lg bg-white/[0.04] border border-white/[0.08] flex items-center justify-center hover:border-white/[0.15] transition-all">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" class="w-4 h-4" style="filter:invert(1);opacity:0.6;">
+                </a>
             </div>
         </div>
     </div>
