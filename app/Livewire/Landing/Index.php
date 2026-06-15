@@ -7,10 +7,12 @@ use App\Models\Company;
 use App\Models\InvestmentPlan;
 use App\Models\Testimony;
 use Livewire\Attributes\Layout;
+use Livewire\Attributes\Title;
 use Livewire\Component;
 
 
 #[Layout('layouts.landing', params: ['showPreloader' => true])]
+#[Title('Credit Tide — Private Stock Investment Firm')]
 class  Index extends Component {
 
     public function render(): \Illuminate\View\View {
