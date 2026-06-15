@@ -33,8 +33,16 @@
                             <span class="text-xs text-cgreen">${{ format_compact($investor->deposits) }} <span class="text-[10px] text-t3">deposits</span></span>
                         </div>
                     </div>
-                    <div class="text-xl opacity-50 group-hover:opacity-100 transition-opacity">
-                        <x-brand-icon :brand="$investor->icon" :color="$investor->color" />
+                    <div class="text-xl opacity-50 group-hover:opacity-100 transition-opacity flex-shrink-0 w-6 h-6">
+                        @if($investor->icon)
+                            <img
+                                src="https://cdn.simpleicons.org/{{ $investor->icon }}/{{ ltrim($investor->color, '#') }}"
+                                alt="{{ $investor->icon }}"
+                                class="w-6 h-6"
+                            >
+                        @else
+                            🚀
+                        @endif
                     </div>
                 </div>
             @endforeach

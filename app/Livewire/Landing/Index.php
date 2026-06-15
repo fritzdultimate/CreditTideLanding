@@ -33,7 +33,8 @@ class  Index extends Component {
                 str_contains($inv->position, 'Nike')   => 'nike',
                 str_contains($inv->position, 'Google') => 'google',
                 str_contains($inv->position, 'Apple')  => 'apple',
-                default => 'default',
+                str_contains($inv->position, 'Tesla')  => 'tesla',
+                default => null,
             };
 
             $inv->color = match (true) {
