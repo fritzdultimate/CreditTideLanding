@@ -29,8 +29,10 @@
                         </div>
                         <div class="text-xs text-t3 mt-0.5">{{ $investor->position }}</div>
                         <div class="flex gap-4 mt-1.5">
-                            <span class="text-xs text-t2">${{ format_compact($investor->investments) }} <span class="text-[10px] text-t3">invested</span></span>
-                            <span class="text-xs text-cgreen">${{ format_compact($investor->deposits) }} <span class="text-[10px] text-t3">deposits</span></span>
+                            <span class="text-xs text-cgreen">
+                                ${{ format_compact($investor->investments + $investor->deposits) }} 
+                                <span class="text-[10px] text-t3">est. revenue</span>
+                            </span>
                         </div>
                     </div>
                     <div class="text-xl opacity-50 group-hover:opacity-100 transition-opacity flex-shrink-0 w-6 h-6">
