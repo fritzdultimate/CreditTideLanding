@@ -41,9 +41,10 @@
                                 class="w-5 h-5 opacity-50 group-hover:opacity-100 transition-opacity"
                                 style="filter: invert(1);"
                             >
-                        @else
-                            🚀
-                        @endif
+                       @else
+                        <i class="ti ti-coin text-xl opacity-50 group-hover:opacity-100 transition-opacity"
+                        style="color: {{ $investor->color }}"></i>
+                    @endif
                     </div>
                 </div>
             @endforeach
