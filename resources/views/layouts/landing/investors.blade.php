@@ -36,9 +36,10 @@
                     <div class="text-xl opacity-50 group-hover:opacity-100 transition-opacity flex-shrink-0 w-6 h-6">
                         @if($investor->icon)
                             <img
-                                src="https://cdn.simpleicons.org/{{ $investor->icon }}/{{ ltrim($investor->color, '#') }}"
+                                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/{{ $investor->icon }}.svg"
                                 alt="{{ $investor->icon }}"
-                                class="w-6 h-6"
+                                class="w-5 h-5 opacity-50 group-hover:opacity-100 transition-opacity"
+                                style="filter: invert(1);"
                             >
                         @else
                             🚀
