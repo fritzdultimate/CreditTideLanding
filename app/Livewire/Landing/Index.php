@@ -27,11 +27,13 @@ class  Index extends Component {
                 ->implode('');
 
             $inv->icon = match (true) {
-                str_contains($inv->position, 'Meta') => '⬡',
-                str_contains($inv->position, 'Amazon') => '📦',
-                str_contains($inv->position, 'Nvidia') => '⬡',
-                str_contains($inv->position, 'Nike') => '✓',
-                default => '🚀',
+                str_contains($inv->position, 'Meta')   => 'meta',
+                str_contains($inv->position, 'Amazon') => 'amazon',
+                str_contains($inv->position, 'Nvidia') => 'nvidia',
+                str_contains($inv->position, 'Nike')   => 'nike',
+                str_contains($inv->position, 'Google') => 'google',
+                str_contains($inv->position, 'Apple')  => 'apple',
+                default => 'default',
             };
 
             $inv->color = match (true) {

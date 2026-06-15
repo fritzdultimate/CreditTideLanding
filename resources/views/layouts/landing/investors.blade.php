@@ -17,7 +17,7 @@
                         {{ $investor->initials }}
                     </div>
                     <img
-                        src="{{ $investor->image }}"
+                        src="{{ $investor->image }}" 
                         alt="{{ $investor->name }}"
                         class="rounded-full w-10 h-10 object-cover"
                     >
@@ -34,7 +34,7 @@
                         </div>
                     </div>
                     <div class="text-xl opacity-50 group-hover:opacity-100 transition-opacity">
-                        {{ $investor->icon }}
+                        <x-brand-icon :brand="$investor->icon" :color="$investor->color" />
                     </div>
                 </div>
             @endforeach
