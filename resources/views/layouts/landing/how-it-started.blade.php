@@ -1,7 +1,7 @@
 <!-- ══ HOW IT STARTED ══ -->
 <section class="relative bg-bg overflow-hidden">
     <img src="{{ asset('assets/img/hisbg.jpeg') }}"
-        alt="How Credit Tide started" class="absolute inset-0 w-full h-full object-contain object-top"
+        alt="How Credit Tide started" class="absolute inset-0 w-full h-full object-cover object-top"
         style="filter:brightness(0.28)" />
     <div class="relative z-10 py-20 px-6 lg:px-12">
         <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
