@@ -17,9 +17,7 @@
         style="box-shadow:0 1px 0 rgba(255,255,255,0.08)">
         <a href="{{ route('home') }}"
             class="font-display font-extrabold text-lg flex items-center gap-2 text-t1 no-underline">
-            <div
-                class="w-8 h-8 rounded-lg bg-gradient-to-br from-accent to-accent2 flex items-center justify-center text-white text-sm font-black flex-shrink-0">
-                CT</div>
+            <img src="{{ asset('assets/img/logo/ct.png') }}" class="w-8 h-8 bg-cover">
             Credit Tide
         </a>
 
