@@ -30,7 +30,7 @@ class  Index extends Component {
 
             $inv->icon = match (true) {
                 str_contains($inv->position, 'Meta')   => 'meta',
-                str_contains($inv->position, 'Amazon') => 'amazon',
+                str_contains($inv->position, 'Amazon') => 'amazon-custom',
                 str_contains($inv->position, 'Nvidia') => 'nvidia',
                 str_contains($inv->position, 'Nike')   => 'nike',
                 str_contains($inv->position, 'Alphabet') => 'google',
