@@ -38,7 +38,7 @@
                     <div class="text-xl opacity-50 group-hover:opacity-100 transition-opacity flex-shrink-0 w-6 h-6">
                         @if($investor->icon)
                             <img
-                                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/{{ $investor->icon }}.svg"
+                                src="https://cdn.simpleicons.org/{{ $investor->icon }}/{{ $investor->color }}"
                                 alt="{{ $investor->icon }}"
                                 class="w-5 h-5 opacity-50 group-hover:opacity-100 transition-opacity"
                                 style="filter: invert(1);"
