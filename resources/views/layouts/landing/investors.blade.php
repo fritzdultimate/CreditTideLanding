@@ -36,19 +36,21 @@
                         </div>
                     </div>
                     <div class="flex-shrink-0 flex items-center transition-opacity opacity-70 group-hover:opacity-100
-    {{ $investor->icon === 'amazon-custom' ? 'w-10 h-5' : 'w-5 h-5' }}">
-    @if($investor->icon === 'amazon-custom')
-        @include('partials.icons.amazon')
-    @elseif($investor->icon)
-        <img
-            src="https://cdn.simpleicons.org/{{ $investor->icon }}/{{ $investor->color }}"
-            alt="{{ $investor->icon }}"
-            class="w-5 h-5"
-        >
-    @else
-        <span style="color: #{{ $investor->color }}">{{ $investor->initials }}</span>
-    @endif
-</div>
+                        {{ $investor->icon === 'amazon-custom' ? 'w-10 h-5' : 'w-5 h-5' }}">
+                        @if($investor->icon === 'gold')
+                            @include('partials.icons.gold')
+                        @elseif($investor->icon === 'amazon-custom')
+                            @include('partials.icons.amazon')
+                        @elseif($investor->icon)
+                            <img
+                                src="https://cdn.simpleicons.org/{{ $investor->icon }}/{{ $investor->color }}"
+                                alt="{{ $investor->icon }}"
+                                class="w-5 h-5"
+                            >
+                        @else
+                            <span style="color: #{{ $investor->color }}">{{ $investor->initials }}</span>
+                        @endif
+                    </div>
                 </div>
             @endforeach
 
