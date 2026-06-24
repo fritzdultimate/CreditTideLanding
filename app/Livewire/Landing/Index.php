@@ -43,7 +43,7 @@ class  Index extends Component {
                 str_contains($inv->position, 'Meta') => '00C8FF',
                 str_contains($inv->position, 'Amazon') => 'FFB547',
                 str_contains($inv->position, 'Nvidia') => '76B900',
-                str_contains($inv->position, 'Nike') => '7B5EFF',
+                str_contains($inv->position, 'Nike') => '111111',
                 default => 'FF4D6A',
             };
 
