@@ -40,7 +40,7 @@
                             <img
                                 src="https://cdn.simpleicons.org/{{ $investor->icon }}/{{ $investor->color }}"
                                 alt="{{ $investor->icon }}"
-                                class="w-5 h-5 opacity-70 group-hover:opacity-100 transition-opacity"
+                                class="w-5 h-5 opacity-90 group-hover:opacity-100 transition-opacity"
                             >
                        @else
                         ✦
