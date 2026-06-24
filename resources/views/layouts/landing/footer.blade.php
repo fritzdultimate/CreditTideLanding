@@ -5,9 +5,8 @@
             <div class="col-span-2 lg:col-span-2">
                 <a href="{{ route('home') }}"
                     class="font-display font-extrabold text-lg flex items-center gap-2 text-t1 no-underline mb-4">
-                    <div
-                        class="w-8 h-8 rounded-lg bg-gradient-to-br from-accent to-accent2 flex items-center justify-center text-white text-sm font-black flex-shrink-0">
-                        CT</div>Credit Tide
+                    <img src="{{ asset('assets/img/logo/ct.png') }}" class="w-8 h-8 bg-cover">
+                    Credit Tide
                 </a>
                 <p class="text-xs text-t3 leading-relaxed max-w-[240px]">A forward-thinking investment platform
                     dedicated to empowering investors with transparency, security, and AI-driven financial growth.</p>
