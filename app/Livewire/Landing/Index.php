@@ -36,6 +36,7 @@ class  Index extends Component {
                 str_contains($inv->position, 'Alphabet') => 'google',
                 str_contains($inv->position, 'Apple')  => 'apple',
                 str_contains($inv->position, 'Tesla')  => 'tesla',
+                str_contains($inv->position, 'Gold') => 'gold',
                 default => null,
             };
 
