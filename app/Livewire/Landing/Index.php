@@ -40,7 +40,7 @@ class  Index extends Component {
             };
 
             $inv->color = match (true) {
-                str_contains($inv->position, 'Meta') => '#00C8FF',
+                str_contains($inv->position, 'Meta') => '00C8FF',
                 str_contains($inv->position, 'Amazon') => '#FFB547',
                 str_contains($inv->position, 'Nvidia') => '#00E5A0',
                 str_contains($inv->position, 'Nike') => '#7B5EFF',
