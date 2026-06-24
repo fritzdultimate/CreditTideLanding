@@ -25,9 +25,9 @@
                 </div>
                 <div class="flex gap-3"><button
                         class="q-yn flex-1 bg-bg3 border border-white/[0.08] text-t2 py-3 rounded-xl text-sm transition-all"
-                        onclick="selectYN(this)" style="cursor:pointer">1. Yes</button><button
+                        onclick="selectYN(this, 1)" style="cursor:pointer">1. Yes</button><button
                         class="q-yn flex-1 bg-bg3 border border-white/[0.08] text-t2 py-3 rounded-xl text-sm transition-all"
-                        onclick="selectYN(this)" style="cursor:pointer">2. No</button></div>
+                        onclick="selectYN(this, 1)" style="cursor:pointer">2. No</button></div>
             </div>
             <div class="bg-bg2 border border-white/[0.08] rounded-2xl p-8 mb-4">
                 <div
@@ -37,14 +37,14 @@
                 <div class="font-medium text-t1 text-base mb-5">What is your primary investment goal?</div>
                 <div class="flex flex-col gap-2.5"><button
                         class="q-opt text-left bg-bg3 border border-white/[0.08] text-t2 px-4 py-3 rounded-xl text-sm transition-all"
-                        onclick="selectOpt(this)" style="cursor:pointer;width:100%">1. Wealth
+                        onclick="selectOpt(this, 2)" style="cursor:pointer;width:100%">1. Wealth
                         Preservation</button><button
                         class="q-opt text-left bg-bg3 border border-white/[0.08] text-t2 px-4 py-3 rounded-xl text-sm transition-all"
-                        onclick="selectOpt(this)" style="cursor:pointer;width:100%">2. Steady Income</button><button
+                        onclick="selectOpt(this, 2)" style="cursor:pointer;width:100%">2. Steady Income</button><button
                         class="q-opt text-left bg-bg3 border border-white/[0.08] text-t2 px-4 py-3 rounded-xl text-sm transition-all"
-                        onclick="selectOpt(this)" style="cursor:pointer;width:100%">3. Moderate Growth</button><button
+                        onclick="selectOpt(this, 2)" style="cursor:pointer;width:100%">3. Moderate Growth</button><button
                         class="q-opt text-left bg-bg3 border border-white/[0.08] text-t2 px-4 py-3 rounded-xl text-sm transition-all"
-                        onclick="selectOpt(this)" style="cursor:pointer;width:100%">4. High Returns</button></div>
+                        onclick="selectOpt(this, 2)" style="cursor:pointer;width:100%">4. High Returns</button></div>
             </div>
             <div class="bg-bg2 border border-white/[0.08] rounded-2xl p-8 mb-4">
                 <div
@@ -55,13 +55,13 @@
                 </div>
                 <div class="flex flex-col gap-2.5"><button
                         class="q-opt text-left bg-bg3 border border-white/[0.08] text-t2 px-4 py-3 rounded-xl text-sm transition-all"
-                        onclick="selectOpt(this)" style="cursor:pointer;width:100%">1. Up to 60 days</button><button
+                        onclick="selectOpt(this, 3)" style="cursor:pointer;width:100%">1. Up to 60 days</button><button
                         class="q-opt text-left bg-bg3 border border-white/[0.08] text-t2 px-4 py-3 rounded-xl text-sm transition-all"
-                        onclick="selectOpt(this)" style="cursor:pointer;width:100%">2. Up to 90 days</button><button
+                        onclick="selectOpt(this, 3)" style="cursor:pointer;width:100%">2. Up to 90 days</button><button
                         class="q-opt text-left bg-bg3 border border-white/[0.08] text-t2 px-4 py-3 rounded-xl text-sm transition-all"
-                        onclick="selectOpt(this)" style="cursor:pointer;width:100%">3. Up to 6 months</button><button
+                        onclick="selectOpt(this, 3)" style="cursor:pointer;width:100%">3. Up to 6 months</button><button
                         class="q-opt text-left bg-bg3 border border-white/[0.08] text-t2 px-4 py-3 rounded-xl text-sm transition-all"
-                        onclick="selectOpt(this)" style="cursor:pointer;width:100%">4. Up to 1 year or more</button>
+                        onclick="selectOpt(this, 3)" style="cursor:pointer;width:100%">4. Up to 1 year or more</button>
                 </div>
             </div>
             <div class="bg-bg2 border border-white/[0.08] rounded-2xl p-8 mb-4">
@@ -72,16 +72,16 @@
                 <div class="font-medium text-t1 text-base mb-5">What is your risk tolerance?</div>
                 <div class="flex flex-col gap-2.5"><button
                         class="q-opt text-left bg-bg3 border border-white/[0.08] text-t2 px-4 py-3 rounded-xl text-sm transition-all"
-                        onclick="selectOpt(this)" style="cursor:pointer;width:100%">1. Very Low — I avoid risk at all
+                        onclick="selectOpt(this, 4)" style="cursor:pointer;width:100%">1. Very Low — I avoid risk at all
                         costs</button><button
                         class="q-opt text-left bg-bg3 border border-white/[0.08] text-t2 px-4 py-3 rounded-xl text-sm transition-all"
-                        onclick="selectOpt(this)" style="cursor:pointer;width:100%">2. Low — I prefer stable
+                        onclick="selectOpt(this, 4)" style="cursor:pointer;width:100%">2. Low — I prefer stable
                         returns</button><button
                         class="q-opt text-left bg-bg3 border border-white/[0.08] text-t2 px-4 py-3 rounded-xl text-sm transition-all"
-                        onclick="selectOpt(this)" style="cursor:pointer;width:100%">3. Medium — Balanced
+                        onclick="selectOpt(this, 4)" style="cursor:pointer;width:100%">3. Medium — Balanced
                         risk/reward</button><button
                         class="q-opt text-left bg-bg3 border border-white/[0.08] text-t2 px-4 py-3 rounded-xl text-sm transition-all"
-                        onclick="selectOpt(this)" style="cursor:pointer;width:100%">4. High — I want maximum
+                        onclick="selectOpt(this, 4)" style="cursor:pointer;width:100%">4. High — I want maximum
                         returns</button></div>
             </div>
             <button onclick="showResult()"
@@ -107,8 +107,39 @@
 </main>
 
 <script>
-    function selectYN(btn) { btn.closest('.flex').querySelectorAll('.q-yn').forEach(b => { b.style.borderColor = 'rgba(255,255,255,0.08)'; b.style.color = '#8A9ABF'; }); btn.style.borderColor = '#2B6EFF'; btn.style.color = '#00C8FF'; }
-    function selectOpt(btn) { btn.closest('.flex').querySelectorAll('.q-opt').forEach(b => { b.style.borderColor = 'rgba(255,255,255,0.08)'; b.style.color = '#8A9ABF'; }); btn.style.borderColor = '#2B6EFF'; btn.style.color = '#00C8FF'; }
+    const answers = {};
+
+    function selectYN(btn, qNum) {
+        btn.closest('.flex').querySelectorAll('.q-yn').forEach(b => { b.style.borderColor = 'rgba(255,255,255,0.08)'; b.style.color = '#8A9ABF'; });
+        btn.style.borderColor = '#2B6EFF'; btn.style.color = '#00C8FF';
+        answers[qNum] = btn.textContent.trim().charAt(0);
+    }
+
+    function selectOpt(btn, qNum) {
+        btn.closest('.flex').querySelectorAll('.q-opt').forEach(b => { b.style.borderColor = 'rgba(255,255,255,0.08)'; b.style.color = '#8A9ABF'; });
+        btn.style.borderColor = '#2B6EFF'; btn.style.color = '#00C8FF';
+        answers[qNum] = btn.textContent.trim().charAt(0);
+    }
+
     const planDesc = { 'Premium': 'Based on your profile, the Premium plan (2.04% daily for 60 days) is ideal — high returns with a short lock-in period.', 'Silver': 'The Silver plan (1.03% daily for 90 days) matches your balanced risk-reward preference.', 'Gold': 'The Gold plan (0.39% daily for 180 days) provides stable, long-term growth suited to your goals.', 'Star': 'The Star plan (0.29% daily for 365 days) is perfect for building substantial wealth over a year.', 'Unlimited': 'The Unlimited plan (0.19% daily for 365 days) is designed for large capital seeking secure, consistent returns.' };
-    function showResult() { const r = document.getElementById('s-result'); r.classList.remove('hidden'); document.getElementById('rec-plan').textContent = 'Premium'; document.getElementById('rec-desc').textContent = planDesc['Premium']; r.scrollIntoView({ behavior: 'smooth' }); }
+
+    function determinePlan() {
+        const lockIn = answers[3];
+        const risk = answers[4];
+        if (lockIn === '1') return 'Premium';
+        if (lockIn === '2') return 'Silver';
+        if (lockIn === '3') return 'Gold';
+        if (lockIn === '4') return (risk === '1' || risk === '2') ? 'Unlimited' : 'Star';
+        return 'Gold';
+    }
+
+    function showResult() {
+        if (!answers[1] || !answers[2] || !answers[3] || !answers[4]) { alert('Please answer all questions first.'); return; }
+        const plan = determinePlan();
+        const r = document.getElementById('s-result');
+        r.classList.remove('hidden');
+        document.getElementById('rec-plan').textContent = plan;
+        document.getElementById('rec-desc').textContent = planDesc[plan];
+        r.scrollIntoView({ behavior: 'smooth' });
+    }
 </script>
