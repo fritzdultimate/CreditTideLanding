@@ -84,9 +84,16 @@
                         onclick="selectOpt(this, 4)" style="cursor:pointer;width:100%">4. High — I want maximum
                         returns</button></div>
             </div>
-            <button onclick="showResult()"
-                class="w-full bg-accent text-white font-medium py-4 rounded-xl hover:bg-blue-500 transition-all text-sm mb-6">Continue
-                →</button>
+            <button id="continue-btn" onclick="showResult()"
+                class="w-full bg-accent text-white font-medium py-4 rounded-xl hover:bg-blue-500 transition-all text-sm mb-6 flex items-center justify-center gap-2">
+                <span id="continue-text">Continue →</span>
+            </button>
+
+            <div id="s-loading" class="hidden text-center py-8 mb-4">
+                <div class="inline-block w-8 h-8 border-3 border-accent/20 border-t-accent rounded-full animate-spin mb-4"></div>
+                <p class="text-t2 text-sm">Analyzing your profile...</p>
+            </div>
+
             <div id="s-result"
                 class="hidden bg-gradient-to-br from-accent/10 to-accent3/10 border border-accent/25 rounded-2xl p-8 text-center">
                 <div
@@ -102,6 +109,7 @@
                     class="bg-accent text-white font-medium px-7 py-3 rounded-xl hover:bg-blue-500 transition-all no-underline text-sm">View
                     All Plans →</a>
             </div>
+
         </div>
     </section>
 </main>
@@ -121,7 +129,13 @@
         answers[qNum] = btn.textContent.trim().charAt(0);
     }
 
-    const planDesc = { 'Premium': 'Based on your profile, the Premium plan (2.04% daily for 60 days) is ideal — high returns with a short lock-in period.', 'Silver': 'The Silver plan (1.03% daily for 90 days) matches your balanced risk-reward preference.', 'Gold': 'The Gold plan (0.39% daily for 180 days) provides stable, long-term growth suited to your goals.', 'Star': 'The Star plan (0.29% daily for 365 days) is perfect for building substantial wealth over a year.', 'Unlimited': 'The Unlimited plan (0.19% daily for 365 days) is designed for large capital seeking secure, consistent returns.' };
+    const planDesc = {
+        'Premium': 'Based on your profile, the Premium plan (2.04% daily for 60 days) is ideal — high returns with a short lock-in period.',
+        'Silver': 'The Silver plan (1.03% daily for 90 days) matches your balanced risk-reward preference.',
+        'Gold': 'The Gold plan (0.39% daily for 180 days) provides stable, long-term growth suited to your goals.',
+        'Star': 'The Star plan (0.29% daily for 365 days) is perfect for building substantial wealth over a year.',
+        'Unlimited': 'The Unlimited plan (0.19% daily for 365 days) is designed for large capital seeking secure, consistent returns.'
+    };
 
     function determinePlan() {
         const lockIn = answers[3];
@@ -135,11 +149,28 @@
 
     function showResult() {
         if (!answers[1] || !answers[2] || !answers[3] || !answers[4]) { alert('Please answer all questions first.'); return; }
-        const plan = determinePlan();
-        const r = document.getElementById('s-result');
-        r.classList.remove('hidden');
-        document.getElementById('rec-plan').textContent = plan;
-        document.getElementById('rec-desc').textContent = planDesc[plan];
-        r.scrollIntoView({ behavior: 'smooth' });
+
+        const btn = document.getElementById('continue-btn');
+        const loading = document.getElementById('s-loading');
+        const result = document.getElementById('s-result');
+
+        btn.disabled = true;
+        btn.style.opacity = '0.5';
+        btn.style.cursor = 'not-allowed';
+        loading.classList.remove('hidden');
+        loading.scrollIntoView({ behavior: 'smooth' });
+
+        setTimeout(() => {
+            const plan = determinePlan();
+            loading.classList.add('hidden');
+            result.classList.remove('hidden');
+            document.getElementById('rec-plan').textContent = plan;
+            document.getElementById('rec-desc').textContent = planDesc[plan];
+            result.scrollIntoView({ behavior: 'smooth' });
+
+            btn.disabled = false;
+            btn.style.opacity = '1';
+            btn.style.cursor = 'pointer';
+        }, 1800);
     }
 </script>
